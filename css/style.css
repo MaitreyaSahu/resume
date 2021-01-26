@@ -1,0 +1,84 @@
+/************************************************** 
+Color Pallet
+#22223B -- dark blue
+#F2E9E4 -- light pink
+#C9ADA7 -- pink
+#9A8C98 -- purplish
+#4A4E69 -- light blue
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+****************************************************/
+
+/* Global styles */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico', cursive;
+    margin-top: 0;
+}
+/* ******************************************* */
+
+/* header styles */
+header {
+    background-color: #22223B;
+
+    color: white;
+}
+
+/* ******************************************* */
+
+/* project styles */
+.projects {
+    background-color: #F2E9E4;
+}
+
+/* ******************************************* */
+
+/* experience styles */
+.experiences {
+    background-color: #C9ADA7;
+}
+
+/* ******************************************* */
+
+/* education styles */
+.educations {
+    background-color: #9A8C98;
+}
+
+/* ******************************************* */
+
+/* footer styles */
+footer {
+    background-color: #4A4E69;
+    color: white;
+}
+
+.contact-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+.contact-list li a{
+    color: white;
+    padding: 15px;
+}
