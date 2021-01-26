@@ -1,5 +1,5 @@
 # resume
 My Digital Resume
 
-[a link](https://maitreyasahu.github.io/resume/)
+[Maitreya Sahu](https://maitreyasahu.github.io/resume/)
 
