@@ -25,7 +25,7 @@ body {
     max-width: 900px;
     width: 80%;
     margin: auto;
-    padding: 50px 0;
+    padding: 50px 0;    
 }
 
 h1,
@@ -47,6 +47,21 @@ header {
 /* project styles */
 .projects {
     background-color: #F2E9E4;
+}
+
+.project-item{
+    padding: 30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.project-item h3{
+    margin: 0;
+}
+
+.project-img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 /* ******************************************* */
@@ -73,12 +88,31 @@ footer {
 
 .contact-list{
     list-style: none;
-    padding: 0;
-    display: flex;
-    
+    padding: 10px 0;
+}
+.contact-list li{
+    padding: 10px 0;
 }
 
 .contact-list li a{
     color: white;
-    padding: 15px;
+    padding: 15px 15px 15px 0;
+}
+
+/* Responsive */
+@media screen and (min-width: 750px){
+    header, footer {        
+        text-align: center;
+    }
+
+    .project-item{
+        display: flex;
+    }
+
+    .contact-list{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
 }
