@@ -25,7 +25,16 @@
             </div>
         </header>
         <!-- Projects -->
-        <section class="projects">
+        <!-- <div id="git-projects" class="projects">
+            <div class="content-wrapper">
+                <h2>Projects</h2>
+                <p>All the projects are hosted on my <a href="https://github.com/MaitreyaSahu"
+                        target="_blank">GitHub</a> page. Click on the Project Name for the demo</p>
+                <project v-for="project in projects" v-bind:key="project.id" v-bind:project="project"></project>
+            </div>
+        </div> -->
+        <section  id="git-projects" class="projects">
+
             <div class="content-wrapper">
                 <h2>Projects</h2>
                 <p>All the projects are hosted on my <a href="https://github.com/MaitreyaSahu"
@@ -111,6 +120,9 @@
                         <a class="btn" href="#">Source Code</a>
                     </div>
                 </section>
+
+                <project v-for="project in projects" v-bind:key="project.id" v-bind:project="project"></project>
+
             </div>
         </section>
         <!-- Work Experiences -->
@@ -162,6 +174,9 @@
             </div>
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="scripts/vue.js"></script>
+
 </body>
 
 </html>
