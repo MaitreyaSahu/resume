@@ -155,8 +155,9 @@ header {
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9);
 }
 
-.card img {
-    width: 100%;
+.card .project-thumbnail {
+    width: 230px;
+    height: 230px;
     margin: 0;
 
     border-top-left-radius: 10px;
@@ -200,12 +201,9 @@ header {
 
 }
 
-.project-img {
+.project-thumbnail {
     width: 300;
-    max-width: 80vw;
     max-height: 80vw;
-    margin-right: 30px;
-    margin-bottom: 20px;
     background-image: url(/images/logo-favicon.png) no-repeat;
     /* background: #C9ADA7; */
     /* fallback for old browsers */
